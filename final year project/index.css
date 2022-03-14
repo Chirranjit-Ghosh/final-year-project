@@ -1,0 +1,58 @@
+
+body{
+    margin: 0;
+}
+.header {
+background-color: #F1F1F1;
+text-align: left;
+padding: 0;
+}
+
+.home .content{
+  text-align: center;
+
+  font-family: 'Nunito',sans-serif;
+  margin: 0;
+  padding: 250;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+.home .video-container video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(224, 98, 214);
+  }
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+li  a {
+    display: block;
+    text-align: center;
+    padding: 3px 14px;
+    color: white;
+  }
+  li a:hover {
+    background-color: rgb(54, 13, 13);
+  }
+  .active {
+    background-color: #04AA6D;
+  }
